@@ -1,0 +1,24 @@
+{
+	"name": "tractorcow/silverstripe-metro-memberprofiles",
+	"description": "Metro memberprofiles sub-theme for Silverstripe",
+	"type": "silverstripe-theme",
+	"keywords": ["silverstripe", "theme", "metro", "member", "profile"],
+	"authors": [
+		{
+			"name": "Damian Mooyman",
+			"email": "damian.mooyman@gmail.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/tractorcow/silverstripe-metro-memberprofiles/issues"
+	},
+	"require": {
+		"silverstripe/framework": ">=3.0",
+		"silverstripe/cms": ">=3.0",
+		"ajshort/silverstripe-memberprofiles": "dev-master",
+		"tractorcow/silverstripe-metro": "3.0.*-dev"
+	},
+	"extra": {
+		"installer-name": "metro_memberprofiles"
+	}
+}
